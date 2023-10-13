@@ -3,18 +3,18 @@
 The code will be released
 
 In this work, we propose a real-time, lightweight, and high-quality facelift model called MobileSwap. Unlike most models that achieve facial exchange by designing complex network structures and loss functions, our MobileSwap can better decouple identity and background information while only using simple network structures and loss functions, thereby generating higher quality exchanged faces
-
-Method	ID	ID-A↑	FID↓	Pose↓
-FaceShifter	97.83	0.5283*	17.82*	2.54*(2.96*)
-FaceSwap	54.19			
-HifiFace	98.48	0.5792*	18.91*	2.56*(2.63*)
-InfoSwap	-	0.5914*	21.23*	2.93*
-Highres	-	0.3182*	21.79*	2.92*
-RAFSwap	-	-	13.25*	2.53*(-)
-MegaFS	-	0.3409*	18.81*	2.64*
-DiffFace[12] - 0.620*	2.16	2.45*
-SimSwap	92.83	0.5835	11.71	1.56
-MobileSwap	99.86	0.6496	8.5659	1.1066
+   -------------------------------Metric---------------------------------
+    Method	ID	ID-A↑	FID↓	Pose↓
+    FaceShifter	97.83	0.5283*	17.82*	2.54*(2.96*)
+    FaceSwap	54.19			
+    HifiFace	98.48	0.5792*	18.91*	2.56*(2.63*)
+    InfoSwap	-	0.5914*	21.23*	2.93*
+    Highres	-	0.3182*	21.79*	2.92*
+    RAFSwap	-	-	13.25*	2.53*(-)
+    MegaFS	-	0.3409*	18.81*	2.64*
+    DiffFace[12] - 0.620*	2.16	2.45*
+    SimSwap	92.83	0.5835	11.71	1.56
+    MobileSwap	99.86	0.6496	8.5659	1.1066
 
 
     -------------------------------Simswap---------------------------------
