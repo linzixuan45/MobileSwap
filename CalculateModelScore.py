@@ -704,7 +704,25 @@ if __name__ == "__main__":
     0    Gnet  12.165376
     1  Gnet-F  13.498561
 
-
+    **************************************************
+        MODEL       FID
+    0    Gnet  8.518880
+    1  Gnet-F  6.198755
+        MODEL  ID-arcface-resnet50-raw-pos  ID-arcface-resnet50-raw-neg
+    0    Gnet                     0.644234                     0.119226
+    1  Gnet-F                     0.000000                     0.000000
+    2    Base                     0.028715                     0.028715
+        MODEL  ID-arcface-_r101_glin360-pos  ID-arcface-_r101_glin360-neg
+    0    Gnet                      0.669281                      0.088625
+    1  Gnet-F                      0.000000                      0.000000
+    2    Base                      0.022833                      0.022833
+        MODEL  ID-curricularface-pos  ID-curricularface-neg
+    0    Gnet               0.628347               0.082978
+    1  Gnet-F               0.000000               0.000000
+    2    Base               0.019185               0.019185
+        MODEL      POSE
+    0    Gnet  1.304962
+    1  Gnet-F  1.227651
 
 
 
