@@ -2,7 +2,7 @@
 
 The code will be released
 
-In this work, we propose a real-time, lightweight, and high-quality facelift model called MobileSwap. Unlike most models that achieve facial exchange by designing complex network structures and loss functions, our MobileSwap can better decouple identity and background information while only using simple network structures and loss functions, thereby generating higher quality exchanged faces
+In this work, we propose a real-time, lightweight, and high-quality FaceSwap model called MobileSwap. Unlike most models that achieve facial exchange by designing complex network structures and loss functions, our MobileSwap can better decouple identity and background information while only using simple network structures and loss functions, thereby generating higher quality exchanged faces
    -------------------------------Metric---------------------------------
     Method	ID	ID-A↑	FID↓	Pose↓
     FaceShifter	97.83	0.5283*	17.82*	2.54*(2.96*)
